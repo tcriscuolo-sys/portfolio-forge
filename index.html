@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Thomas CRISCUOLO">
+    <meta name="description" content="Mon portfolio de forge, de coutellerie et de métallerie. Je m’appelle Thomas CRISCUOLO, je suis à Marseille et je recherche un apprentissage en métallerie.">
+    <meta name="theme-color" content="#f4f0e7">
+    <title>Thomas CRISCUOLO — Forge, coutellerie &amp; métallerie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <header class="site-header">
+      <div class="header-inner container">
+        <a class="identity" href="#accueil" aria-label="Thomas Criscuolo, accueil">
+          <span class="identity-name">Thomas <strong>CRISCUOLO</strong></span>
+          <span class="identity-location">Marseille</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>
+          <span class="menu-label">Menu</span><span class="menu-lines" aria-hidden="true"></span>
+        </button>
+        <nav id="navigation" class="site-nav" aria-label="Navigation principale">
+          <a href="#realisations">Réalisations</a>
+          <a href="#demonstration">Démonstration</a>
+          <a href="#parcours">Mon parcours</a>
+          <a class="nav-contact" href="#contact">Me contacter <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <section class="hero container" id="accueil" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Forge <span aria-hidden="true">•</span> Coutellerie <span aria-hidden="true">•</span> Métallerie</p>
+          <h1 id="hero-title">Je donne<br>forme au <em>métal.</em></h1>
+          <p class="hero-intro">Je m’appelle Thomas CRISCUOLO. À Marseille, je construis ma reconversion autour du travail du métal et je recherche un apprentissage en métallerie.</p>
+          <p class="hero-project">Mon objectif : poursuivre vers la ferronnerie d’art.</p>
+          <a class="button button-dark" href="#realisations">Découvrir mes réalisations <span aria-hidden="true">↓</span></a>
+          <p class="hero-note">Du dessin à la matière, des premiers gestes aux finitions.</p>
+        </div>
+        <figure class="hero-figure">
+          <a class="image-link hero-image" href="assets/serpent.jpg" data-lightbox data-project-id="serpent" aria-label="Agrandir Le serpent dans le serpent">
+            <img src="assets/serpent.jpg" width="1254" height="1254" alt="Mon couteau damas courbe posé sur son support en forme de serpent en acier, avec une langue en laiton." fetchpriority="high">
+            <span class="image-expand" aria-hidden="true">Agrandir <span>↗</span></span>
+          </a>
+          <figcaption><span>Le serpent dans le serpent</span><span>Damas &amp; acier forgé</span></figcaption>
+        </figure>
+      </section>
+
+      <section class="works section-space container" id="realisations" aria-labelledby="works-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">Mon travail en images</p><h2 id="works-title">Mes réalisations</h2></div>
+          <p class="section-intro">Je présente ici des pièces de coutellerie, un ouvrage de ferronnerie et un objet en tôle, réalisés au fil de mon parcours.</p>
+        </div>
+        <div class="gallery-toolbar">
+          <div class="filters" role="group" aria-label="Filtrer les réalisations" hidden>
+            <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">Tout</button>
+            <button class="filter" type="button" data-filter="coutellerie" aria-pressed="false">Coutellerie</button>
+            <button class="filter" type="button" data-filter="ferronnerie" aria-pressed="false">Ferronnerie</button>
+            <button class="filter" type="button" data-filter="objets" aria-pressed="false">Objets forgés</button>
+          </div>
+          <p class="gallery-count" role="status" aria-live="polite" aria-atomic="true">7 réalisations</p>
+        </div>
+
+        <div class="gallery-grid">
+          <article class="project" id="serpent" data-category="coutellerie">
+            <a class="image-link project-image image-contain" href="assets/serpent.jpg" data-lightbox aria-label="Agrandir Le serpent dans le serpent">
+              <img src="assets/serpent.jpg" width="1254" height="1254" loading="lazy" decoding="async" alt="Mon couteau damas et son support serpent, en vue complète.">
+              <span class="image-expand" aria-hidden="true">Agrandir <span>↗</span></span>
+            </a>
+            <div class="project-copy">
+              <p class="project-category">Coutellerie <span>01</span></p>
+              <h3 class="project-title">Le serpent dans le serpent</h3>
+              <p class="project-description">J’ai réalisé « Le serpent dans le serpent », un couteau damas en aciers C50 et 15N20, avec un tranchant rapporté en C70. Son support représente un serpent en acier, avec une langue en laiton.</p>
+              <p class="project-specs">Damas C50 / 15N20 · Tranchant C70 · Laiton</p>
+            </div>
+          </article>
+
+          <article class="project" id="baleineau" data-category="coutellerie">
+            <a class="image-link project-image image-contain" href="assets/baleineau.jpg" data-lightbox aria-label="Agrandir Coupe-chou fixe Baleineau">
+              <img src="assets/baleineau.jpg" width="1254" height="1254" loading="lazy" decoding="async" alt="Mon coupe-chou fixe, dont la silhouette représente un baleineau.">
+              <span class="image-expand" aria-hidden="true">Agrandir <span>↗</span></span>
+            </a>
+            <div class="project-copy">
+              <p class="project-category">Coutellerie <span>02</span></p>
+              <h3 class="project-title">Coupe-chou fixe Baleineau</h3>
+              <p class="project-description">J’ai réalisé ce coupe-chou fixe en acier 135Cr3, en forme de baleineau.</p>
+              <p class="project-specs">Acier 135Cr3 · Rasoir fixe</p>
+            </div>
+          </article>
+
+          <article class="project" id="duo-cuisine" data-category="coutellerie">
+            <a class="image-link project-image image-contain" href="assets/duo-cuisine.jpg" data-lightbox aria-label="Agrandir Duo de couteaux de cuisine">
+              <img src="assets/duo-cuisine.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="Mon santoku et mon couteau d’office, avec leurs manches en buis et padouk.">
+              <span class="image-expand" aria-hidden="true">Agrandir <span>↗</span></span>
+            </a>
+            <div class="project-copy">
+              <p class="project-category">Coutellerie <span>03</span></p>
+              <h3 class="project-title">Duo de couteaux de cuisine</h3>
+              <p class="project-description">J’ai réalisé ce duo de couteaux de cuisine en 135Cr3 : un santoku à lame de 18 cm et un couteau d’office à lame de 9 cm. Les manches associent le buis et le padouk.</p>
+              <p class="project-specs">Lames 18 et 9 cm · 135Cr3 · Buis / padouk</p>
+            </div>
+          </article>
+
+          <article class="project" id="trio-cuisine" data-category="coutellerie">
+            <a class="image-link project-image image-contain" href="assets/trio-cuisine.jpg" data-lightbox aria-label="Agrandir Trio de couteaux de cuisine">
+              <img src="assets/trio-cuisine.jpg" width="1254" height="1254" loading="lazy" decoding="async" alt="Mes trois couteaux de cuisine : santoku, couteau polyvalent et couteau d’office, de gauche à droite.">
+              <span class="image-expand" aria-hidden="true">Agrandir <span>↗</span></span>
+            </a>
+            <div class="project-copy">
+              <p class="project-category">Coutellerie <span>04</span></p>
+              <h3 class="project-title">Trio de couteaux de cuisine</h3>
+              <p class="project-description">J’ai réalisé ces trois couteaux, présentés de gauche à droite : un santoku à lame de 15 cm en 135Cr3, avec un manche en érable stabilisé ; un couteau polyvalent à lame de 13 cm en C70 ; un couteau d’office à lame de 10 cm en C70, avec un manche en buis.</p>
+              <p class="project-specs">Lames 15, 13 et 10 cm · 135Cr3 / C70</p>
+            </div>
+          </article>
+
+          <article class="project" id="garde-corps" data-category="ferronnerie">
+            <a class="image-link project-image image-contain" href="assets/garde-corps.jpg" data-lightbox aria-label="Agrandir Garde-corps décoratif">
+              <img src="assets/garde-corps.jpg" width="1254" height="1254" loading="lazy" decoding="async" alt="Mon panneau décoratif en acier, composé de courbes, de volutes et de motifs rayonnants dans un cadre carré.">
+              <span class="image-expand" aria-hidden="true">Agrandir <span>↗</span></span>
+            </a>
+            <div class="project-copy">
+              <p class="project-category">Ferronnerie <span>05</span></p>
+              <h3 class="project-title">Garde-corps décoratif</h3>
+              <p class="project-description">J’ai fabriqué et posé ce panneau de garde-corps décoratif de 1 m × 1 m en acier de serrurerie, assemblé par soudure à l’arc.</p>
+              <p class="project-specs">1 m × 1 m · Acier de serrurerie · Soudure à l’arc</p>
+            </div>
+          </article>
+
+          <article class="project" id="louche" data-category="objets">
+            <a class="image-link project-image image-contain image-louche" href="assets/louche.jpg" data-lightbox aria-label="Agrandir Louche en tôle à manche riveté">
+              <img src="assets/louche.jpg" width="533" height="1600" loading="lazy" decoding="async" alt="Ma louche en vue entière, avec son long manche en acier riveté et sa boucle terminale.">
+              <span class="image-expand" aria-hidden="true">Agrandir <span>↗</span></span>
+            </a>
+            <div class="project-copy">
+              <p class="project-category">Objets forgés <span>06</span></p>
+              <h3 class="project-title">Louche en tôle à manche riveté</h3>
+              <p class="project-description">J’ai réalisé cette louche en tôle, avec un manche en acier assemblé par rivetage.</p>
+              <p class="project-specs">Tôle · Manche en acier · Rivetage</p>
+            </div>
+          </article>
+
+          <article class="project project-wide" id="kiridashi" data-category="coutellerie">
+            <a class="image-link project-image image-contain" href="assets/kiridashi.jpg" data-lightbox aria-label="Agrandir Kiridashi en C70">
+              <img src="assets/kiridashi.jpg" width="1024" height="1536" loading="lazy" decoding="async" alt="Mon kiridashi en acier C70, avec une partie brute de forge et une volute à l’extrémité du manche.">
+              <span class="image-expand" aria-hidden="true">Agrandir <span>↗</span></span>
+            </a>
+            <div class="project-copy">
+              <p class="project-category">Coutellerie <span>07</span></p>
+              <h3 class="project-title">Kiridashi en C70</h3>
+              <p class="project-description">J’ai réalisé ce kiridashi en acier C70, avec une finition partiellement brute de forge et une volute terminale.</p>
+              <p class="project-specs">Acier C70 · Brut de forge partiel · Volute</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="demonstration section-space" id="demonstration" aria-labelledby="demo-title">
+        <div class="container demonstration-grid">
+          <figure class="demonstration-figure">
+            <img src="assets/demonstration.jpg" width="1322" height="1190" loading="lazy" decoding="async" alt="Lors de la démonstration de forge à Pierrelatte, je travaille une pièce de métal chauffée sur l’enclume.">
+            <figcaption>Photographie : Le Dauphiné libéré / Sylvia Behaeghel — photo retouchée.</figcaption>
+          </figure>
+          <div class="demonstration-copy">
+            <p class="eyebrow">Au contact du public</p>
+            <h2 id="demo-title">La forge,<br><em>un moment partagé.</em></h2>
+            <p class="demo-location">Salon du couteau de Pierrelatte</p>
+            <p>Lors du salon du couteau de Pierrelatte, j’ai participé bénévolement à une démonstration collective de forge en public. J’ai répondu aux questions des visiteurs et expliqué les gestes au fil de la démonstration.</p>
+            <span class="small-label">Participation bénévole</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="journey section-space container" id="parcours" aria-labelledby="journey-title">
+        <div class="journey-heading"><p class="eyebrow">Mon parcours</p><h2 id="journey-title">De la forge<br> à la <em>métallerie.</em></h2></div>
+        <div class="journey-copy">
+          <p class="lead">Après plusieurs années dans le soin, j’ai engagé ma reconversion vers le travail du métal.</p>
+          <p>En 2025, ma formation en forge et coutellerie chez Couleurs de Forge m’a permis de pratiquer le travail de l’acier à chaud, la découpe, le perçage, l’assemblage et les finitions. Les pièces de ce portfolio donnent à voir ce parcours.</p>
+          <p>Je souhaite aujourd’hui apprendre la métallerie au sein d’une entreprise, progresser dans la fabrication d’ouvrages sur plan et construire des bases solides. À terme, je veux poursuivre vers la ferronnerie d’art et les réalisations sur mesure.</p>
+          <div class="journey-direction"><span>Ma prochaine étape</span><strong>Un apprentissage en métallerie</strong><span>Marseille et ses alentours</span></div>
+        </div>
+      </section>
+
+      <section class="contact section-space" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div><p class="eyebrow">Échanger &amp; se rencontrer</p><h2 id="contact-title">Parlons de<br><em>mon projet.</em></h2></div>
+          <div class="contact-copy">
+            <p>Je recherche une entreprise pour m’accueillir en apprentissage en métallerie. Je serais heureux de présenter mes réalisations et d’échanger sur mon projet.</p>
+            <a class="contact-email" href="mailto:t.criscuolo@laposte.net">t.criscuolo@laposte.net <span aria-hidden="true">↗</span></a>
+            <p class="contact-location">Thomas CRISCUOLO · Marseille</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container"><p>© 2026 Thomas CRISCUOLO</p><p>Forge · Coutellerie · Métallerie</p><a href="#accueil">Retour en haut <span aria-hidden="true">↑</span></a></footer>
+
+    <dialog class="viewer" id="project-viewer" aria-labelledby="viewer-title" aria-describedby="viewer-description">
+      <button class="viewer-close" type="button" autofocus>Fermer <span aria-hidden="true">×</span></button>
+      <div class="viewer-layout">
+        <div class="viewer-image-wrap"><img id="viewer-image" src="assets/serpent.jpg" width="1254" height="1254" alt=""></div>
+        <div class="viewer-copy"><p class="eyebrow" id="viewer-category"></p><h2 id="viewer-title">Le serpent dans le serpent</h2><p id="viewer-description"></p><p class="project-specs" id="viewer-specs"></p></div>
+      </div>
+    </dialog>
+  </body>
+</html>
